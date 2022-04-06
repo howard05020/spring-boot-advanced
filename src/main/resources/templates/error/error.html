@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+<title>Error</title>
+<meta charset="UTF-8">
+<meta name="viewpoint" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="../css/bootstrap.min.css" th:href="@{/css/bootstrap.min.css}">
+</head>
+<body>
+	<div class="container" style="max-width: 600px; margin-top: 50px;">
+		<div class="jumbotron">
+			<h2>Error</h2>
+			<p>對不起, 後台服務異常, 請聯繫管理員</p>
+		</div>
+		
+		<!-- 以下錯誤詳細資訊可在檢視網頁原始碼中查看 -->
+		<div th:utext="'&lt;!--'" th:remove="tag"></div>
+		<div th:utext="'Failed Request : ' + ${url}" th:remove="tag"></div>
+		<div th:utext="'Exception Message : ' + ${exception.message}" th:remove="tag"></div>
+		<ul>
+			<li th:each="st : ${exception.stackTrace}" th:remove="tag">
+				<span th:utext="${st}" th:remove="tag"></span>
+			</li>
+		</ul>
+	</div>
+	
+</body>
+</html>

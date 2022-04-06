@@ -1,0 +1,78 @@
+2022-04-04 01:20:57.826  INFO 4172 --- [main] c.howard.SpringBootAdvancedApplication   : Starting SpringBootAdvancedApplication using Java 17.0.1 on MSI with PID 4172 (C:\Users\orz19\Desktop\Java\workspace\spring-boot-advanced\target\classes started by orz19 in C:\Users\orz19\Desktop\Java\workspace\spring-boot-advanced)
+2022-04-04 01:20:57.832 DEBUG 4172 --- [main] c.howard.SpringBootAdvancedApplication   : Running with Spring Boot v2.6.5, Spring v5.3.17
+2022-04-04 01:20:57.833  INFO 4172 --- [main] c.howard.SpringBootAdvancedApplication   : No active profile set, falling back to 1 default profile: "default"
+2022-04-04 01:20:58.364  INFO 4172 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-04-04 01:20:58.405  INFO 4172 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 34 ms. Found 2 JPA repository interfaces.
+2022-04-04 01:20:58.949  INFO 4172 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-04-04 01:20:58.957  INFO 4172 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-04-04 01:20:58.958  INFO 4172 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-04-04 01:20:59.070  INFO 4172 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-04-04 01:20:59.071  INFO 4172 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1202 ms
+2022-04-04 01:20:59.206  INFO 4172 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-04-04 01:20:59.260  INFO 4172 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.7.Final
+2022-04-04 01:20:59.414  INFO 4172 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-04-04 01:20:59.499  INFO 4172 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-04-04 01:20:59.756  INFO 4172 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-04-04 01:20:59.781  INFO 4172 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-04-04 01:21:00.297  INFO 4172 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-04-04 01:21:00.306  INFO 4172 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-04-04 01:21:00.553  WARN 4172 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-04-04 01:21:00.825  INFO 4172 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-04-04 01:21:00.831  INFO 4172 --- [main] c.howard.SpringBootAdvancedApplication   : Started SpringBootAdvancedApplication in 3.416 seconds (JVM running for 3.886)
+2022-04-04 01:21:05.487  INFO 4172 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-04-04 01:21:05.488  INFO 4172 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-04-04 01:21:05.489  INFO 4172 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-04-04 01:21:09.519 ERROR 4172 --- [http-nio-8080-exec-2] com.howard.web.BookController            : Request URL : /books/50, Exception : No value present
+2022-04-04 01:24:40.811 ERROR 4172 --- [http-nio-8080-exec-5] com.howard.web.BookController            : Request URL : /books/20, Exception : No value present
+2022-04-04 01:24:43.904 ERROR 4172 --- [http-nio-8080-exec-6] com.howard.web.BookController            : Request URL : /books/22, Exception : No value present
+2022-04-04 01:24:49.845 ERROR 4172 --- [http-nio-8080-exec-10] com.howard.web.BookController            : Request URL : /books/50, Exception : No value present
+2022-04-04 15:37:39.044  INFO 26456 --- [main] c.howard.SpringBootAdvancedApplication   : Starting SpringBootAdvancedApplication using Java 17.0.1 on MSI with PID 26456 (C:\Users\orz19\Desktop\Java\workspace\spring-boot-advanced\target\classes started by orz19 in C:\Users\orz19\Desktop\Java\workspace\spring-boot-advanced)
+2022-04-04 15:37:39.046 DEBUG 26456 --- [main] c.howard.SpringBootAdvancedApplication   : Running with Spring Boot v2.6.5, Spring v5.3.17
+2022-04-04 15:37:39.046  INFO 26456 --- [main] c.howard.SpringBootAdvancedApplication   : No active profile set, falling back to 1 default profile: "default"
+2022-04-04 15:37:39.809  INFO 26456 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-04-04 15:37:39.869  INFO 26456 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 48 ms. Found 2 JPA repository interfaces.
+2022-04-04 15:37:40.567  INFO 26456 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-04-04 15:37:40.581  INFO 26456 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-04-04 15:37:40.582  INFO 26456 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-04-04 15:37:40.729  INFO 26456 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-04-04 15:37:40.729  INFO 26456 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1634 ms
+2022-04-04 15:37:40.912  INFO 26456 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-04-04 15:37:40.968  INFO 26456 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.7.Final
+2022-04-04 15:37:41.213  INFO 26456 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-04-04 15:37:41.390  INFO 26456 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-04-04 15:37:41.700  INFO 26456 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-04-04 15:37:41.732  INFO 26456 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-04-04 15:37:42.355  INFO 26456 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-04-04 15:37:42.361  INFO 26456 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-04-04 15:37:42.692  WARN 26456 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-04-04 15:37:43.058  INFO 26456 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-04-04 15:37:43.066  INFO 26456 --- [main] c.howard.SpringBootAdvancedApplication   : Started SpringBootAdvancedApplication in 4.518 seconds (JVM running for 4.983)
+2022-04-04 15:37:45.600  INFO 26456 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-04-04 15:37:45.600  INFO 26456 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-04-04 15:37:45.601  INFO 26456 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-04-04 15:37:45.621 ERROR 26456 --- [http-nio-8080-exec-1] com.howard.web.BookController            : Request URL : /exception, Exception : 測試異常處理
+2022-04-04 15:55:17.658  INFO 17040 --- [main] c.howard.SpringBootAdvancedApplication   : Starting SpringBootAdvancedApplication using Java 17.0.1 on MSI with PID 17040 (C:\Users\orz19\Desktop\Java\workspace\spring-boot-advanced\target\classes started by orz19 in C:\Users\orz19\Desktop\Java\workspace\spring-boot-advanced)
+2022-04-04 15:55:17.660 DEBUG 17040 --- [main] c.howard.SpringBootAdvancedApplication   : Running with Spring Boot v2.6.5, Spring v5.3.17
+2022-04-04 15:55:17.661  INFO 17040 --- [main] c.howard.SpringBootAdvancedApplication   : No active profile set, falling back to 1 default profile: "default"
+2022-04-04 15:55:18.280  INFO 17040 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-04-04 15:55:18.338  INFO 17040 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 48 ms. Found 2 JPA repository interfaces.
+2022-04-04 15:55:18.947  INFO 17040 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-04-04 15:55:18.963  INFO 17040 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-04-04 15:55:18.963  INFO 17040 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-04-04 15:55:19.094  INFO 17040 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-04-04 15:55:19.095  INFO 17040 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1397 ms
+2022-04-04 15:55:19.235  INFO 17040 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-04-04 15:55:19.278  INFO 17040 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.7.Final
+2022-04-04 15:55:19.420  INFO 17040 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-04-04 15:55:19.513  INFO 17040 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-04-04 15:55:19.800  INFO 17040 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-04-04 15:55:19.837  INFO 17040 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-04-04 15:55:20.394  INFO 17040 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-04-04 15:55:20.399  INFO 17040 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-04-04 15:55:20.719  WARN 17040 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-04-04 15:55:21.051  INFO 17040 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-04-04 15:55:21.059  INFO 17040 --- [main] c.howard.SpringBootAdvancedApplication   : Started SpringBootAdvancedApplication in 3.803 seconds (JVM running for 4.176)
+2022-04-04 15:55:28.289  INFO 17040 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-04-04 15:55:28.290  INFO 17040 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-04-04 15:55:28.291  INFO 17040 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-04-04 15:55:28.313 ERROR 17040 --- [http-nio-8080-exec-1] com.howard.web.BookController            : Request URL : /exception, Exception : 測試異常處理
